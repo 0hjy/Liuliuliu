@@ -1,0 +1,15 @@
+分页符：将Word中的某一页在鼠标位置分成两页，不影响整个文档的连续性；
+
+分节符：将整个Word文档分割成两个部分，进行插入不同的页码；
+
+页码格式选项中，不要勾选“续前节”，选择起始页码即可
+
+[Error] expected declaration or statement at end of input
+[错误]在结束输入时预期宣言或声明
+//可能错误：
+1. 某一个函数或者变量没有在使用之前声明。
+2. 某个地方少了个括号。（并不一定是编译器指出错误的地方，这种情况，编译器一般会在最后一行代码报错，但错误很可能不在最后一行，要靠自己去找出来）
+
+[Warning] data definition has no type or storage class
+[警告]数据定义没有类型也不是存储类
+//定义写错int brace; brack; paren; 应该是int brace, brack， paren; 

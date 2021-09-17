@@ -1,0 +1,86 @@
+备注：
+明早装一个markdown编辑器
+疑问：
+1.啥是一个制表位？
+2.文件结束指示符？
+3.流结束标志?
+4.什么是阻塞式和非阻塞io流?
+5.++i和i++
+	https://www.cnblogs.com/baxianhua/p/9284915.html
+6.HTML如何qian入SWF
+https://zhidao.baidu.com/question/190120525.html
+7.如何下载网页flash小游戏
+https://jingyan.baidu.com/article/afd8f4dea47e0d34e286e905.html
+8.chrome断网小游戏是？？？？？？？
+内容：
+转义符为无法输入的字符或者不可见的字符提供一种通用机制
+如"双引号被c语言用于输出字符串语法，输出他本身反而用 \"
+\n换行next row
+\t制表
+\b回退break
+\"双引号
+\\表示反斜杠\本身
+一次警告warning：
+[Warning] unknown escape sequence: '\c'
+fahr//华氏温度fahrenheit
+celsius//摄氏
+lower//下线
+upper//上限
+step//步长，
+华氏温度和摄氏温度转换公式为：
+℃=（5/9）*（F-32）
+c语言整数除法执行舍位，5/9=0
+
+/*
+		三种输入 
+scanf("%d,%d",&a,&b);Imput must like the 13,15 回车键一次结束  
+scanf("%d %d",&a,&b);Imput空格不能加
+scanf("%d%d",&a,&b);
+可以输入一个字符，一次回车确认;也可以 用空格分隔，全部输入后再回车 
+	  */ 
+%d
+%6d
+%f
+%6f
+%.2f
+%6.1f
+定义一个remove函数出现问题
+	stdio.h含有int __cdecl remove(const char *_Filename);
+
+	[Error] conflicting types for 'remove'
+	//[错误]“remove”的冲突类型
+	//<stdio.h>中有remove同名函数
+
+	<stdio.h>In file included from D:\代码.c
+	//在D中包含的文件中:
+
+	[Note] previous declaration of 'remove' was here
+	[注]之前的“remove”声明在这里#include<stdio.h>
+
+
+[Error] lvalue required as left operand of assignment
+[Error] ld returned 1 exit status
+一种原因是你的某一个DevC程序运行之后没有关，
+如果继续编译（注意是编译，不是运行），就会出现
+
+另一种是Dev环境问题，由于代码的函数在库里找不见。
+
+按数值大小由小到大排列，同等大小按前导零数目由多到少排列。
+（win 7可以在组策略中启用“关闭Windows资源管理器中的数值排序”将此规则更改为按每个数字位依次比较排序，其它版本未确认）
+
+
+https://blog.csdn.net/zhanwei103/article/details/6331835
+while ( (c = getchar()）！= EOF)程序无法继续问题CTRL+Z 并回车
+Enter之后，控制台字符送到输入缓冲区中存储，
+	cin.get() 就会检测输入缓冲区中是否有了可读的数据。	cin.get() 还检查键盘上是否有作为流结束标志的 Ctrl+Z 或者 Ctrl+D 键按下
+
+
+purchar('\n');/输出字符常量， 整数值
+
+
+
+
+
+
+
+

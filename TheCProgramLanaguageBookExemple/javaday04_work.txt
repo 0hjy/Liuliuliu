@@ -1,0 +1,96 @@
+1.创建一个能够存储六个int类型的变量的数组arrayOne
+int[] arrayOne = new int[6];
+2.打印一个四行五列的矩阵	
+每一个元素都是一个0-10的随机数(Math.random())
+package com.briup.day4;
+
+public class Juzhen{
+	public static void main(String[] args){
+		for(int i=0;i<4;i++){
+			for(int j=0;j<5;j++){
+				int num=(int)(Math.random()*11);
+				System.out.print(num+" ");
+			}
+			System.out.println("");
+		}
+	}
+}
+3.数组是一个对象吗？
+是
+对象.属性/方法
+arr.length
+arr.clone();
+instanceOf   Object
+		
+4.设计一个程序当你输入一个数时可以计算各个位上的数字总和。
+package com.briup.day4;
+
+public class Sum{
+	public static void main(String[] args){
+		int a=521;
+		int ge=a%10;
+		int shi=(a/10)%10;
+		int bai=a/100;
+		int sum=ge+shi+bai;
+		System.out.println("数字总和为:"+sum);                                  
+	}   
+}
+
+
+5.请设计程序：
+有一个长度为9的int数组，默认值都是6。
+用户如果输入一个5.那么第五个元素的值就是5；
+用户如果输入一个3.那么第三个元素的值就是3；
+package com.briup.day4;
+import java.util.Arrays;                                                        
+public class Shuzu{
+	public static void main(String[] args){
+		int[] arr=new int[9];
+		Arrays.fill(arr,6);
+		int num=4;
+		for(int i=0;i<arr.length;i++){
+			if(i+1==num){
+				arr[i]=num;
+			}
+			System.out.println(arr[i]);
+		}   
+	}   
+}
+
+
+
+6.请设计程序：请将一个班的学生成绩的平均值求出，并求出低于平均值的学生姓名
+	1-tom-79
+	2-jack-87
+	3-lily-90
+	4-Bob-88
+	5-alex-90
+
+package com.briup.day4;                                                         
+
+public class Student{
+    public double getAvg(int[] arr){
+        double sum=0.0;
+        for(int i=0;i<5;i++){
+            sum += arr[i];
+        }
+        return sum/arr.length;
+    }
+    
+    public static void main(String[] args){
+        Student test=new Student();
+        int[] grade=new int[]{79,87,90,88,90};
+        double avg=test.getAvg(grade);
+        System.out.println("平均值为:"+avg);
+        
+        String[] name=new String[]{"Tom","Jack","LIly","Bob","Alex"};
+        for(int j=0;j<5;j++){
+            if (grade[j]<avg){
+                System.out.println(name[j]);
+            }
+        }
+    }
+}
+
+（选做）请按照test文件夹中代码的注释来完成代码
+

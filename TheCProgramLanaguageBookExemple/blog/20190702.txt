@@ -1,0 +1,19 @@
+去迪拜，乞讨也可以过去。
+
+测试相当重要
+
+undefined reference to `reverse'
+对“Reverse”的未定义引用
+//只声明未定义函数reverse
+
+[Error] conflicting types for 'reverse'
+[警告] 与'reverse'产生冲突的类型
+[Note] previous declaration of 'reverse' was here
+[注]之前的“reverse”声明在这里
+//这是重名函数警告
+
+undefined reference to `putcahr'
+引用的“putcahr”未定义
+
+1.制表符是啥意思？
+2.插入制表符是为了对齐，一般8个位置

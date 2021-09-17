@@ -1,0 +1,20 @@
+https://blog.csdn.net/shengzhu1/article/details/81271409
+比较糟糕的技术文档主要特征之一就是：用专业名词来介绍专业名词。
+
+EL 全名为Expression Language
+
+
+属性(Attribute)与范围(Scope) 
+
+
+
+https://www.imooc.com/qadetail/138506?t=174434 
+html 密码框 按键 对齐12栅格系统  
+
+https://blog.csdn.net/mr_javascript/article/details/79677503 
+Bootstrap栅栏布局里col-xs-*、col-sm-*、col-md-*、col-lg-*之间的区别及使用方法
+
+https://blog.csdn.net/m0_37746212/article/details/78402107
+计算机语言的几种分类
+脚本语言（Script languages,scripting programming languages,scripting languages）
+一个脚本可以使得本来要用键盘进行的相互式操作自动化

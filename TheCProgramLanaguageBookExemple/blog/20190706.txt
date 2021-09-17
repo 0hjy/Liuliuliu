@@ -1,0 +1,13 @@
+cmd中Ctrl+z作用
+	c程序运行cmd后，输入内容还在控制台，回车传入程序
+Ctrl+z 检测 还有没有余留信息即：
+	前一个输入是回车，无余留字符（enter ctrl+z enter 结束）
+		enter结束输入
+	前一个输入不是回车，有余留字符（a ctrl+z enter 传入 不结束）
+		enter将字符传入，不结束输入
+http://www.360doc.com/content/13/0918/09/13264825_315315848.shtml
+标准输入和ctrl+d  ctrl+z
+非阻塞式 linux ，CTRL+d有回车功能，提供结束符
+阻塞式  windows，ctrl+z 无回车功能，提供结束符
+https://zhidao.baidu.com/question/1174348703097353819.html
+https://segmentfault.com/a/1190000006046198
